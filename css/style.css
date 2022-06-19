@@ -113,7 +113,7 @@
 
   .form__btn::before{
     pointer-events: none;
-    content: 'Please provide a valid Email';
+    content: 'Please provide a valid email';
     position: absolute;
     color: var(--Soft-Red);
     height: 1.5rem;
