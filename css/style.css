@@ -26,7 +26,7 @@
     max-width: 768px;
 }
 .header__logo{
-    width:clamp(31%,15vw,42%);
+    width:clamp(31%,15vw,35%);
 }
 
 .main{
@@ -47,7 +47,7 @@
     width: min(100%,420px);
     letter-spacing: clamp(10px,1vw,30px);
     text-transform: uppercase;
-    font-size: clamp(2.5rem,6vw,4.5rem);
+    font-size: clamp(2.5rem,6vw,4rem);
 }
 
 .title--span{
@@ -148,7 +148,7 @@
     position: absolute;
     box-shadow: 0 10px 20px rgb(181, 132, 132);
     border-radius: 30px;
-    width: 20.5%;
+    width: clamp(20.5%,20vw,22.5%);
     height: 100%;
     left: 80%;
     /* display: none; */
@@ -159,6 +159,7 @@
         max-width: 1040px;
         height: 100vh;
         justify-content: center;
+        background-color:hsla(0, 66%, 71%, 0.056);
         background-image: url(/assets/img/hero-desktop.jpg),url(/assets/img/bg-pattern-desktop.svg);
         background-size: clamp(375px, 45vw, 610px) auto, clamp(175px, 100vw, 850px) auto;
         background-repeat: no-repeat, no-repeat;
