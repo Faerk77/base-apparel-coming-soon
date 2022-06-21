@@ -80,6 +80,7 @@
 
 .form__input::placeholder{
     color: var(--Desaturated-Red);
+    background: transparent;
     color: hsl(0, 36%, 90%);
     font-size: 0.9rem;
     text-transform: lowercase;
